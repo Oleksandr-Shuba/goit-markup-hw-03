@@ -1,0 +1,91 @@
+.top-banner h1 {
+    color: var(--white);
+}
+
+.top-banner {
+    background-color: var(--dark-grey);
+}
+
+.top-banner .btn-blue {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+
+
+
+.top-banner .top-banner-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+
+.top-banner-specific .top-banner-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-main-color);
+}
+
+.top-banner-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+
+
+/* ---ACTIVITY---- */
+
+.activity-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1.16;
+    color: var(--text-main-color);
+}
+
+
+/* -----TEAM--------- */
+.team {
+    background-color: var(--grey-bright);
+}
+
+.team-list-item {
+    background-color: var(--white);
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-main-color);
+}
+
+
+.team-member-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
