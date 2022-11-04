@@ -4,16 +4,19 @@
 
 .top-banner {
     background-color: var(--dark-grey);
+    padding: 200px 0px;
 }
 
 .top-banner .btn-blue {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;
+    margin: 0px auto;
+    display: block;
 }
 
 
@@ -27,6 +30,10 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white);
+    padding: 0px 0px 30px 0px;
+    width: 696px;
+    margin: 0 auto;
+
 }
 
 
@@ -60,16 +67,34 @@
     letter-spacing: 1.16;
     color: var(--text-main-color);
 }
+.activity{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.activity-title{
+    margin-bottom: 50px;
+}
+.activity-list{
+    margin-bottom: 94px;
+}
+
+
 
 
 /* -----TEAM--------- */
 .team {
     background-color: var(--grey-bright);
+    
 }
+
 
 .team-list-item {
     background-color: var(--white);
+    
 }
+.team-title{
+    margin-bottom: 50px;
+
 
 .team-member {
     font-weight: 500;
@@ -88,4 +113,5 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey);
+    
 }

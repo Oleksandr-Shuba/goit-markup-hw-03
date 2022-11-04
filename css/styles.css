@@ -3,8 +3,8 @@
     --white: #ffffff;
     --mixed: rgba(255, 255, 255, 0.6);
     --text-main-color: #212121;
-    --grey:#757575;
-    --grey-bright:#f5f4fa;
+    --grey: #757575;
+    --grey-bright: #f5f4fa;
     --dark-grey: #2f303a;
 }
 
@@ -14,10 +14,47 @@ body {
     font-style: normal;
     color: var(--text-main-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 a {
     text-decoration: none;
 }
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+
+/* ------------------HEADER------------------ */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: var(--white);
+}
+
 
 
 
@@ -80,6 +117,19 @@ a {
     color: var(--blue);
 }
 
+
+/* ---------BANNER---------------- */
+
+
+
+
+
+
+
+
+
+
+/* --------FOOTER------------------ */
 .footer-part .contact {
     font-weight: 400;
     font-size: 14px;
@@ -95,8 +145,11 @@ a {
 .footer-part .contact-white {
     color: var(--white);
 }
+.footer-part {
+    background-color: var(--dark-grey);
+}
 
-/* ---- Contacts ends ------*/
+
 
 
 /* ---- Nav menu------*/
@@ -109,6 +162,7 @@ a {
     color: var(--text-main-color);
 }
 
+
 .link:hover,
 .link:focus,
 .link.active {
@@ -117,6 +171,6 @@ a {
 }
 
 /*--Nav menu end-----*/
-.footer-part {
-    background-color: var(--dark-grey);
-}
+
+
+
