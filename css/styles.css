@@ -43,22 +43,13 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
-}
-
-
-/* ------------------HEADER------------------ */
-
-.header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    background-color: var(--white);
+    outline: 1px solid red;
 }
 
 
 
 
-/*--BUTTONS---*/
+/*------------BUTTONS--------*/
 .btn {
     font-family: Roboto;
     cursor: pointer;
@@ -82,7 +73,10 @@ a {
 /*--BUTTONS ENDS--*/
 
 
-/* -----logo begins-----*/
+
+/* --------HEADER--------------- */
+
+/* -logo- */
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -91,17 +85,36 @@ a {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--blue);
-}
+    margin-bottom: 24px;
 
+}
 .studio {
     color: #000000;
+    
 }
-
-.footer-part .studio {
-    color: var(--white);
-}
-
 /* -----logo ends-----*/
+
+
+/* -header-starts */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: var(--white);
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Contacts starts */
@@ -130,6 +143,23 @@ a {
 
 
 /* --------FOOTER------------------ */
+
+/* footer-logo-starts */
+
+.footer-part.logo {
+    margin-bottom: 60px;
+}
+
+.footer-part .studio {
+    color: var(--white);
+    margin-bottom: 60px;
+}
+
+/* footer-logo-ends */
+
+
+
+/* contacts---- */
 .footer-part .contact {
     font-weight: 400;
     font-size: 14px;
