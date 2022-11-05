@@ -45,6 +45,12 @@
     text-transform: uppercase;
     color: var(--text-main-color);
 }
+.top-banner-specific .top-banner-list{
+    display: flex;
+    gap: 0px 30px;
+    margin-top: 94px;
+    justify-content: center;
+}
 
 .top-banner-text {
     font-weight: 400;
@@ -52,6 +58,8 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--grey);
+    text-align: justify;
+    margin-top: 10px;
 }
 
 
@@ -76,6 +84,10 @@
 }
 .activity-list{
     margin-bottom: 94px;
+    display: flex;
+    gap: 0px 30px;
+    justify-content: center;
+
 }
 
 
@@ -84,7 +96,13 @@
 /* -----TEAM--------- */
 .team {
     background-color: var(--grey-bright);
-    
+    padding: 94px 0px;
+}
+
+.team-list{
+    display: flex;
+    gap: 0px 30px;
+    justify-content: center;
 }
 
 
@@ -93,7 +111,7 @@
     
 }
 .team-title{
-    margin-bottom: 50px;
+    margin-bottom: 50px;}
 
 
 .team-member {
@@ -103,6 +121,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-main-color);
+    margin-top: 30px;
 }
 
 
@@ -113,5 +132,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey);
+    margin-bottom: 30px;
+    margin-top: 10px;
     
 }

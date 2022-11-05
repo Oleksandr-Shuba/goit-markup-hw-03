@@ -44,6 +44,7 @@ a {
     padding-right: 15px;
     margin: 0 auto;
     outline: 1px solid red;
+
 }
 
 
@@ -85,7 +86,9 @@ a {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--blue);
-    margin-bottom: 24px;
+    margin: 0px 93px 0px 215px;
+
+
 
 }
 .studio {
@@ -97,10 +100,13 @@ a {
 
 /* -header-starts */
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0px 25px 0px;
     background-color: var(--white);
-    margin-bottom: 25px;
+    border: 1px solid #ECECEC;
+}
+.header .container{
+    display: flex;
+    width: auto;
 }
 
 
@@ -118,6 +124,11 @@ a {
 
 
 /* Contacts starts */
+.contact-list{
+    display: flex;
+    gap: 0px 50px;
+    margin: 8px auto 0px auto;
+}
 .contact {
     font-weight: 500;
     font-size: 14px;
@@ -131,28 +142,22 @@ a {
 }
 
 
-/* ---------BANNER---------------- */
-
-
-
-
-
-
-
-
 
 
 /* --------FOOTER------------------ */
 
 /* footer-logo-starts */
 
-.footer-part.logo {
-    margin-bottom: 60px;
+.footer .container{
+    padding: 60px 0px;
+}
+.footer .logo{
+    margin: 0px 0px 0px 215px;
 }
 
-.footer-part .studio {
+.footer .studio {
     color: var(--white);
-    margin-bottom: 60px;
+
 }
 
 /* footer-logo-ends */
@@ -160,22 +165,28 @@ a {
 
 
 /* contacts---- */
-.footer-part .contact {
+.footer .contact {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--mixed);
+    
+}
+.footer .contact-list{
+flex-direction: column;
+margin: 20px 0px 0px 215px;
+gap: 9px 0px;
 }
 
-.footer-part .contact:hover {
+.footer .contact:hover {
     color: var(--blue);
 }
 
-.footer-part .contact-white {
+.footer .contact-white {
     color: var(--white);
 }
-.footer-part {
+.footer {
     background-color: var(--dark-grey);
 }
 
@@ -183,13 +194,20 @@ a {
 
 
 /* ---- Nav menu------*/
-
+.nav-list{
+    display: flex;
+    margin-top: 8px;
+    gap: 0px 50px;
+    
+    
+}
 .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-main-color);
+    
 }
 
 
@@ -201,6 +219,8 @@ a {
 }
 
 /*--Nav menu end-----*/
+
+
 
 
 
