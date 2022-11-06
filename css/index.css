@@ -49,8 +49,6 @@
 .top-banner-specific .top-banner-list {
     display: flex;
     gap: 30px;
-    margin-top: 94px;
-    justify-content: center;
 }
 
 .top-banner-text {
@@ -77,14 +75,6 @@
     color: var(--text-main-color);
 }
 
-.activity {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.activity-title {
-   margin-bottom: 50px; 
-}
 
 .activity-list {
     display: flex;
