@@ -6,11 +6,9 @@
 }
 .menu{
     display: flex;
-    gap: 0px 8px;
+    gap: 8px;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
-
+    
 }
 
 
@@ -20,17 +18,26 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    padding: 6px 22px;
+    
     color: var(--text-main-color);
+    
 }
  .our-projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px 30px;
+    gap: 30px;
+
  }
  .project-item{
+   
     border: 1px solid #EEEEEE;
+
  }
+ .project-item img{
+    display: block;
+ }
+
 .our-projects .project-subtitle {
     font-weight: 400;
     font-size: 16px;
@@ -38,6 +45,8 @@
     letter-spacing: 0.03em;
     color: var(--grey);
     text-align: center;
+    padding: 4px 24px 20px;
+    
 }
 
 .our-projects .project-title {
@@ -47,4 +56,6 @@
     letter-spacing: 0.06em;
     color: var(--text-main-color);
     text-align: center;
+    padding: 20px 24px;
+
 }
