@@ -3,25 +3,19 @@
 }
 
 .top-banner {
-    padding-top: 200px;
-    padding-bottom: 106px;
+    padding: 200px 0px;
+    background-color: var(--dark-grey);
 }
 
-.top-banner-section {
-    background-color: var(--dark-grey);
-    margin-bottom: 94px;
-}
 
 .top-banner .btn-blue {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    text-align: center;
     letter-spacing: 0.06em;
-    width: 216px;
-    height: 50px;
     margin: 0px auto;
     display: block;
+    padding: 10px 32px;
 }
 
 
@@ -62,7 +56,6 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--grey);
-    text-align: justify;
     margin-top: 10px;
 }
 
@@ -125,10 +118,12 @@
     color: var(--text-main-color);
 
 }
+.team-member-pic{
+    display: block;
+}
 
 .team-member-description {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 30px 0px;
 }
 
 .team-member-position {

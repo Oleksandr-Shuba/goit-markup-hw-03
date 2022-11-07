@@ -36,6 +36,7 @@ a {
 
 .link {
     text-decoration: none;
+    padding: 32px 0px;
 }
 
 .container {
@@ -48,6 +49,10 @@ a {
 }
 .section{
     padding-bottom: 94px;
+    padding-top: 94px;
+}
+.top-zero {
+    padding-top: 0px;
 }
 
 
@@ -137,7 +142,8 @@ a {
 
 
 .footer .logo{
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    margin-right: 0; 
     
 }
 
