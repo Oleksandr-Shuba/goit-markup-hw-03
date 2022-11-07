@@ -43,7 +43,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
+   
 
 }
 .section{
@@ -112,7 +112,6 @@ a {
 
 /*------------------ CONTACTS--------------- */
 .contact-list{
-    padding: 32px 0px;
     display: flex; 
     gap: 50px;
     margin-left:  auto;
@@ -135,9 +134,7 @@ a {
 
 /* footer-logo-starts */
 
-.footer .container{
-    padding: 60px 0px;
-}
+
 
 .footer .logo{
     margin-bottom: 20px; 
@@ -193,7 +190,6 @@ gap: 9px;
     
 }
 .link {
-    padding: 32px 0px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;

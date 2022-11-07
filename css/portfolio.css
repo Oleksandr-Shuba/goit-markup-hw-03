@@ -1,3 +1,12 @@
+.buttons{
+   margin-top: 94px; 
+   
+}
+
+
+
+
+
 .menu .btn-grey:hover,
 .menu .btn-grey:focus,
 .menu .btn-grey.active {
@@ -5,12 +14,14 @@
     color: var(--white);
 }
 .menu{
+    margin-bottom: 34px;
     display: flex;
     gap: 8px;
     justify-content: center;
     
     
 }
+
 
 
 .menu .btn {
@@ -27,7 +38,7 @@
  .our-projects{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 27px;
 
  }
  .project-item{
@@ -45,8 +56,7 @@
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--grey);
-    text-align: center;
-    padding: 4px 24px 20px;
+    
     
 }
 
@@ -56,7 +66,9 @@
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--text-main-color);
-    text-align: center;
-    padding: 20px 24px;
+    
 
+}
+.project-item-description{
+    padding: 20px 24px;
 }

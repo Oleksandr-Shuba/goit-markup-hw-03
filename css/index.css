@@ -3,8 +3,13 @@
 }
 
 .top-banner {
+    padding-top: 200px;
+    padding-bottom: 106px;
+}
+
+.top-banner-section {
     background-color: var(--dark-grey);
-    padding: 200px 0px;
+    margin-bottom: 94px;
 }
 
 .top-banner .btn-blue {
@@ -64,14 +69,13 @@
 
 
 /* ---ACTIVITY---- */
-
 .activity-title,
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
-    letter-spacing: 1.16;
+    letter-spacing: 0.03em;
     color: var(--text-main-color);
 }
 
@@ -79,6 +83,7 @@
 .activity-list {
     display: flex;
     gap: 30px;
+    padding-top: 50px;
 
 }
 
@@ -88,6 +93,7 @@
 /* -----TEAM--------- */
 .team {
     background-color: var(--grey-bright);
+    padding-top: 94px;
 
 }
 
@@ -117,9 +123,13 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-main-color);
-    margin-top: 30px;
+
 }
 
+.team-member-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .team-member-position {
     font-weight: 400;
@@ -128,7 +138,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey);
-    margin-bottom: 30px;
+
     margin-top: 10px;
 
 }
