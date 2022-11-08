@@ -71,6 +71,9 @@
     letter-spacing: 0.03em;
     color: var(--text-main-color);
 }
+.activity{
+    padding-top: 0;
+}
 
 
 .activity-list {
@@ -86,7 +89,7 @@
 /* -----TEAM--------- */
 .team {
     background-color: var(--grey-bright);
-    padding-top: 94px;
+    
 
 }
 
